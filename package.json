@@ -1,13 +1,17 @@
 {
   "name": "summoners-war-encoder",
   "version": "1.0.0",
-  "description": "",
+  "description": "Provides encoding requests, decoding requests and responses methods",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/evifox/summoners-war-encoder.git"
+  },
   "main": "bin/main",
   "scripts": {
     "build": "tsc --project ./",
     "watch-build": "tsc --watch --project ./"
   },
-  "author": "",
+  "author": "evifox",
   "license": "ISC",
   "devDependencies": {
     "@types/aes-js": "^3.1.0",
